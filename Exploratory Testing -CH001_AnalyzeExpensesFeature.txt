@@ -1,0 +1,64 @@
+Test Charter 1
+Charter -Analyze Income and Expenses feature of Monefy App
+Areas -Income ,Expense
+Start -8th-June at 5 PM
+Tester - Soumyamayee Rout
+Duration -1.5 hrs
+Testing Notes-This is a journal of exploratory testing done.
+	-Open Monify App
+	-Select the Monthly view 
+	-Add incomes for salary ,savings and deposits
+	-click on the option near the balance tab and verify if all entered amount is reflecting correctly.
+	-Verify the addition of all incomes should reflect correctly	
+	-Add Expenses for all the catagories like Food,Bills,Clothes etc.
+	-Verify if the balance amount is calculated(Income-sum of all expenses)  displayed correctly upto 2 decimal digits 
+		on Balance Field on Home screen
+	-Verify the expense percentages are calculated correctly and displayed on the home screen.
+	
+Testcase-2
+------------
+Bugs-No bugs found
+Test Design and Execution-
+
+	-Open Monify App
+	-Select the Monthly view 
+	-Add incomes for salary ,savings and deposits
+	-Verify the addition of all incomes should reflect correctly	
+	-Add Expenses for all the catagories like Food,Bills,Clothes etc.
+	-click on option symbol(=) near balance tab and Verify only the entered expenses and income categories are visible with respective symbols.
+	-click on each categories to view and verify datewise entries as entered earlier. 
+	-verify if incomes are marked with green dots and expenses are marked with Red dots.
+	- click on the sort/details symbol and check if the expenses and income fileds are sorted datewise and visible only for the current month.
+
+
+Testcase-2 Check Balance carryover to next month
+------------ - 
+-Open Monify App
+	-Select the Monthly view 
+-activte carryover option from setting
+	-Add incomes for salary ,savings and deposits
+	-Verify the addition of all incomes should reflect correctly	
+	-Add Expenses for all the catagories like Food,Bills,Clothes etc.
+	-Verify if the balance amount is calculated(Income-sum of all expenses)  displayed correctly upto 2 decimal digits 
+		on Balance Field on Home screen
+	-navigate to next month and verify if caryy over balance is visible on home screen
+	-in next month balance should be updated as sum of carryover balance and next month incomes
+
+testcase -3 -verify if able to add expenses directly to the category
+-----------------------
+-open Monefy App
+-select monthly view
+-click on any expense category symbol displayed on home screen and add expenses.
+-verify if the entered expense is reflected in %
+-verify if the balance is updated after deducting new expense
+
+testcase-4 -check negative balance case
+----------------------------------------
+
+- open monefy app
+-navigate to home screen.
+- enter income 20000
+-enter house rent 15000
+-enter 15000 expense under health category 
+-balace should be visible as -10000
+
